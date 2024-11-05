@@ -1,0 +1,29 @@
+.content.about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(101,196,188,1),rgba(244,171,76,1));
+}
+
+.content.about .infoCtn{
+    padding: 15px 20px;
+    width: max-content;
+    background-color: #d69d7d;
+    font: 700 1.4rem/1.7 sans-serif;
+    border: solid black 2px;
+    border-radius: 5px;
+    display: grid;
+    grid-template: repeat(8, 1fr)/ repeat(2, max-content);
+    grid-auto-flow: column;
+    column-gap: 20px;
+}
+
+.content.about .infoCtn .address{
+    grid-row: 1/4;
+}
+
+.content.about .infoCtn .openingHours{
+    grid-row: 5/7;
+}

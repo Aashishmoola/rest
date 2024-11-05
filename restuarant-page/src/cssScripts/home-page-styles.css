@@ -1,0 +1,23 @@
+
+.content.home{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: linear-gradient(rgba(101,196,188,1),rgba(244,171,76,1));
+}
+
+.content.home .imageCtn img {
+    width: 500px;
+    box-shadow: 0 0 8px 50px rgba(255, 255, 255, 0.4) inset;
+}
+
+.content.home .contentHeader{
+    /* .contentHeader still obeys flex properties, if postition is not set */
+    position: absolute;
+    top: 35%;
+    font: 700 1.65rem sans-serif;
+    color: rgb(9, 92, 29);
+}
